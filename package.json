@@ -1,0 +1,21 @@
+{
+  "name": "aws_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "prod": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1478.0",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
